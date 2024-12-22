@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Birthday Ides</title>
+</head>
+<body>
+<!-- Preloader -->
+<div id="preloader">
+  <span class="emoji">🎉</span>
+</div>
+
+<!-- Hero Section -->
+<section class="hero">
+  <p class="intro">Hai, Cantik...</p>
+  <p class="intro">Selamat Ulang Tahun! 🎂</p>
+  <p class="intro">Kamu adalah alasan terbaik untuk tersenyum hari ini.</p>
+</section>
+
+<!-- Section 2: Birthday Countdown -->
+<section class="countdown-section">
+    <div class="container">
+        <p>Hari ini kita sudah bersama...</p>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days" class="time">0</span>
+                <span class="label">Hari</span>
+            </div>
+            <div class="time-box">
+                <span id="hours" class="time">0</span>
+                <span class="label">Jam</span>
+            </div>
+            <div class="time-box">
+                <span id="minutes" class="time">0</span>
+                <span class="label">Menit</span>
+            </div>
+            <div class="time-box">
+                <span id="seconds" class="time">0</span>
+                <span class="label">Detik</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 3: Momen Kita -->
+<section class="memory-section">
+    <div class="container">
+        <h2>Momen Kita</h2>
+        <p>Kenangan kebersamaan kita yang penuh cinta dan cerita.</p>
+        <div class="photo-gallery">
+            <img src="media/poto1.jpg" alt="Foto 1" class="memory-photo">
+            <img src="Media/poto2.jpg" alt="Foto 2" class="memory-photo">
+            <img src="media/poto3.jpg" alt="Foto 3" class="memory-photo">
+            <img src="media/poto4.jpg" alt="Foto 4" class="memory-photo">
+        </div>
+        <video controls class="memory-video">
+            <source src="media/kebersamaan.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+<!-- Section 4: Gift Choices -->
+<section class="choice-section">
+    <div class="container">
+        <p>Pilih hadiahmu! Pilih yang bener jing</p>
+        <div class="card-container">
+            <div class="card" onclick="revealChoice(this, 'Pijat', 'Aku pijitin kamu kapanpun!')">❓</div>
+            <div class="card" onclick="revealChoice(this, 'Chef', 'Aku masakin spesial buat kamu!')">❓</div>
+            <div class="card" onclick="revealChoice(this, 'Mobil', 'Selamat dapet mobil! (tapi boong wle')">❓</div>
+        </div>
+    </div>
+</section>
+
+<!-- Section 5: Birthday Wishes -->
+<section class="wish-section">
+    <div class="container">
+        <p class="birthday-wishes">
+          Selamat ulang tahun, sayang. Hari ini, aku tidak hanya merayakan bertambahnya usiamu, tapi juga keberuntungan hidupku karena memiliki kamu di sisiku. Kamu adalah cahaya di hariku yang paling kelam, kehangatan di malamku yang paling dingin, dan kekuatan di setiap langkahku. Terima kasih telah menjadi alasan senyumku, tempat aku pulang, dan bagian terbaik dari hidupku. Terima kasih juga udah selalu support aku dan nerima aku, kamu hebat berani nyoba sesuatu yang baru, walaupun cape ga nyampang nyerah, aku bangga sama kamu sayang. Semoga tahun ini membawa semua kebahagiaan yang layak kamu dapatkan, karena kamu adalah hadiah terindah dalam hidupku. Aku mencintaimu, lebih dari kata-kata bisa menggambarkan. I love youu
+        </p>
+        <img src="media/cake.png" alt="Birthday Cake" class="cake">
+        <p>Tiup lilinnya, ya!</p>
+    </div>
+</section>
+
+<footer>
+    <p>Made with ❤ by Irfan</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
